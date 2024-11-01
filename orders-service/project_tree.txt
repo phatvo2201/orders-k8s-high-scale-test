@@ -1,0 +1,49 @@
+.
+├── Dockerfile
+├── cmd
+│   └── main.go
+├── configmap.yaml
+├── docker-compose.yml
+├── go.mod
+├── go.sum
+├── init.sql
+├── internal
+│   ├── orders
+│   │   ├── db
+│   │   │   └── postgres.go
+│   │   ├── handler
+│   │   │   └── handler.go
+│   │   ├── model
+│   │   │   ├── model.go
+│   │   │   └── response.go
+│   │   ├── repository
+│   │   │   └── repository.go
+│   │   ├── service
+│   │   │   └── service.go
+│   │   └── worker
+│   │       └── worker.go
+│   └── product
+│       ├── db
+│       │   └── postgres_pd.go
+│       ├── model
+│       │   └── product.go
+│       └── repository
+│           └── product_repo.go
+├── orders-service.yml
+├── pkg
+│   ├── rabbitmq
+│   │   └── rebbitmq.go
+│   └── redis
+│       └── redis.go
+├── postgres.yml
+├── postgres2.yml
+├── project_tree.txt
+├── rabbitmq.yml
+├── redis.yml
+├── script.sh
+├── secret.yaml
+└── test
+    └── k6_test
+        └── load_test.js
+
+19 directories, 28 files
